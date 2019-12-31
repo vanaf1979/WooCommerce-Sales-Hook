@@ -1,8 +1,26 @@
 <?php
+/**
+ * AdminSettings
+ *
+ * Add an admin page for this plugin.
+ *
+ * @package             Since1979\AdminSettings
+ * @author              Stephan Nijman <vanaf1979@gmail.com>
+ * @copyright           2020 Stephan Nijman
+ * @license             GPL-2.0-or-later
+ * @version             1.0.0
+ */
 
 namespace Since1979;
 
-class AdminSettings {
+/**
+ * AdminSettings
+ *
+ * Add an admin page for this plugin.
+ *
+ * @package Since1979\AdminSettings
+ */
+final class AdminSettings {
 
     /**
      * init
