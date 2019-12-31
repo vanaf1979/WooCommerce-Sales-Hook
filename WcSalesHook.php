@@ -43,7 +43,7 @@ final class WcSalesHook {
      *
      * @var WcSalesHook $instance instance.
      *
-     * @access private static
+     * @access private
      */
     private static $instance = null;
 
@@ -53,7 +53,7 @@ final class WcSalesHook {
      *
      * Return a instance of this class.
      *
-     * @access public static
+     * @access public
      * @return WcSalesHook
      */
     public static function instance(): WcSalesHook
