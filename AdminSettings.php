@@ -27,7 +27,7 @@ class AdminSettings {
     /**
      * addAdminSubPage
      *
-     * Register hooks with WordPress.
+     * Add admin subpage under WooCommerce page.
      *
      * @uses   add_submenu_page https://developer.wordpress.org/reference/functions/add_submenu_page/
      *
@@ -136,9 +136,6 @@ class AdminSettings {
      *
      * Register settings and fields for the page.
      *
-     * @uses   register_setting https://developer.wordpress.org/reference/functions/register_setting/
-     * @uses   add_settings_field https://developer.wordpress.org/reference/functions/add_settings_field/
-     *
      * @access public
      * @return void
      */
@@ -153,6 +150,9 @@ class AdminSettings {
      * registerSalesHookEndPointUrl
      *
      * Register the SalesHookEndPointUrl field.
+     *
+     * @uses   register_setting https://developer.wordpress.org/reference/functions/register_setting/
+     * @uses   add_settings_field https://developer.wordpress.org/reference/functions/add_settings_field/
      *
      * @access private
      * @return void
@@ -197,6 +197,9 @@ class AdminSettings {
      * registerSalesHookDataBillingAddress
      *
      * Register the SalesHookDataBillingAddress field.
+     *
+     * @uses   register_setting https://developer.wordpress.org/reference/functions/register_setting/
+     * @uses   add_settings_field https://developer.wordpress.org/reference/functions/add_settings_field/
      *
      * @access private
      * @return void
